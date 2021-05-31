@@ -411,7 +411,7 @@
 
       <!-- BLOG -->
       <section id="blog">
-        <!-- <div class="container flex">
+        <div class="container flex">
           <div class="header waypoint" data-animation="slide-in-left">BLOG</div>
           <div
             class="header-bar waypoint"
@@ -509,15 +509,12 @@
               </a>
             </div>
           </div>
-        </div> -->
+        </div> 
       </section>
 
       <!-- CONTACT -->
       <section id="contact">
-
-
-        <h1>I hope you liked it!</h1>
-        <!-- <svg
+        <svg
           preserveAspectRatio="none"
           viewBox="0 0 100 102"
           height="75"
@@ -545,11 +542,14 @@
             Want to work together?
           </div>
           <form
-            class="waypoint"
+            class="gform"
             data-animation="pop-in"
             data-delay=".5s"
             id="contact-form"
+            action="https://script.google.com/macros/s/AKfycbws-VymXc41fO-BILCtonyAd8FmjLOfOD4AXhaW1Ngs9XVo13Dwspq2UNeCIy5hg54mEg/exec" 
+            method="post"
           >
+        
             <input placeholder="Name" type="text" name="name" required />
             <input
               placeholder="Enter email" 
@@ -562,17 +562,15 @@
               type="text"
               name="message"
             ></textarea>
-            <div id="success">
-              <div>
-                Your message was sent successfully. Thanks!<span
-                  id="close"
-                  class="mdi mdi-close"
-                ></span>
-              </div>
+            <div class="thankyou_message" style="display:none;">
+              <h3><em>Thanks</em> for contacting!</h3>
+              <h3>
+                  Your message was sent successfully!</h3>
             </div>
             <input class="button" type="submit" id="submit" value="SUBMIT" />
           </form>
-        </div> -->
+          <script data-cfasync="false" src="form-submission-handler.js"></script>
+        </div>
       </section>
 
       <footer>
@@ -621,15 +619,15 @@
       <img src="img/blog-2.jpg" />
       <img src="img/blog-3.jpg" />
       <img src="img/blog-4.jpg" />
-      <img src="img/slides/discover-0.jpg" />
-      <img src="img/slides/discover-1.jpg" />
-      <img src="img/slides/discover-2.jpg" />
-      <img src="img/slides/ordering-0.jpg" />
-      <img src="img/slides/ordering-1.jpg" />
-      <img src="img/slides/ordering-2.jpg" />
-      <img src="img/slides/newrelic-0.jpg" />
-      <img src="img/slides/newrelic-1.jpg" />
-      <img src="img/slides/newrelic-2.jpg" />
+      <img src="img/slides/kaggle-0.jpg" />
+      <img src="img/slides/kaggle-1.jpg" />
+      <img src="img/slides/kaggle-2.jpg" />
+      <img src="img/slides/tableau-0.jpg" />
+      <img src="img/slides/tableau-1.jpg" />
+      <img src="img/slides/tableau-2.jpg" />
+      <img src="img/slides/book_django-0.jpg" />
+      <img src="img/slides/book_django-1.jpg" />
+      <img src="img/slides/book_django-2.jpg" />
       <img src="img/slides/mystand-0.jpg" />
       <img src="img/slides/mystand-1.jpg" />
       <img src="img/slides/mystand-2.jpg" />
